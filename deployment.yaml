@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: register-app
-          image: khaushik/java-cicd:latest
+          image: khaushik/java-cicd:1.0.0-22
           resources:
             limits:
               memory: "256Mi"
