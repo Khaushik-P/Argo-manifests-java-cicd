@@ -1,7 +1,7 @@
 pipeline {
     agent { label "Jenkins-Agent" }
     environment {
-              APP_NAME = "Java CICD"
+              APP_NAME = "java-cicd"
     }
 
     stages {
